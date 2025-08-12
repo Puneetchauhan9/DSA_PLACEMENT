@@ -61,6 +61,26 @@ for(int i = 5; i>0; i--){
 
 }
 
+
+" Selection Sort Algorithm to sort the array of char in ascending order.
+
+
+char arr[] = {'d', 'a', 'c', 'f', 'b', 'e'};
+for(int i = 0; i<5; i++){
+  int  index = i;
+
+  for(int j = i+1; j<=5; j++){
+    if(arr[j]<arr[index]){
+        index = j;
+    }
+  }
+  swap(arr[index] , arr[i]);
+
+}
+   for(int k = 0; k<6; k++){
+    cout<<arr[k]<<" ";
+   }
+
     return 0;
 }
 

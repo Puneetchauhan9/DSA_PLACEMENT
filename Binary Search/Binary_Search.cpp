@@ -1,11 +1,13 @@
 "Binary Search in C++ ": " 
 "Binary search ek efficient searching algorithm hai.
 
-"Ye sirf sorted array pe kaam karta hai (ascending ya descending).
+"Ye sirf sorted array pe kaam karta hai (ascending ya descending)".
 
 "Idea ye hai: array ko repeatedly half divide karke target dhundhna."
-// Puneet Chauhan 
 
+
+// Puneet Chauhan 
+//Puneet Chauhan
 
 #include<iostream>
 using namespace std;

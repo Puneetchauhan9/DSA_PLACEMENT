@@ -4,8 +4,7 @@
 "Ye sirf sorted array pe kaam karta hai (ascending ya descending).
 
 "Idea ye hai: array ko repeatedly half divide karke target dhundhna."
-
-
+// Puneet Chauhan 
 
 
 #include<iostream>

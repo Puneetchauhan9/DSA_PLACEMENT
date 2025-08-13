@@ -1,6 +1,6 @@
 "Defination:Insertion sort me hum outer loop 1 se n-1 tak chalate hain. Har step me inner loop i se 1 tak piche chalta hai, left side ke elements se compare karta hai. 
 Agar left side wala element bada ho to swap kar dete hain, aur jab swap ruk jaaye (ya chhota element mil jaye) to break kar dete hain.
- Is tarah har step me left side ka portion sorted hota jata hai
+ Is tarah har step me left side ka portion sorted hota jata hai"
 
 //Insertion Sort In C++ 
 

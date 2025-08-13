@@ -33,3 +33,20 @@ int main(){
     cout<<arr[k]<<" ";
    }
 }
+
+
+"insertion sort decreasing order" 
+     for(int i = 1; i<5; i++){
+     for(int j = i; j>0; j--){
+        if(arr[j]>arr[j-1]){
+        swap(arr[j] , arr[j-1]);
+        }
+        else{
+            break;
+     }
+    }
+}
+    for(int k =0; k<5; k++){
+    cout<<arr[k]<<" ";
+   }
+}

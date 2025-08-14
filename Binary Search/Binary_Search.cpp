@@ -55,3 +55,31 @@ int main() {
  }
  cout<<"Target Not Found ";
 }
+
+
+
+// Binary Search ek basic question jo ki strike nhi tute
+
+
+ int arr[5] = {30 , 28 , 20 , 16 ,5};
+
+ int start=0 , end=4;
+ int target = 28;
+ while(start<=end){
+    int mid = start + (end-start)/2;
+
+    if(arr[mid]== target){
+        cout<<"Got it! "<<target<<" at index"<<mid<<" ";
+        return 0;
+    }
+    else if(arr[mid]<target){
+      end = mid-1;
+    }
+    else{
+        start = mid+1;
+    }
+ }
+ cout<<"Target Not Found ";
+}
+
+
